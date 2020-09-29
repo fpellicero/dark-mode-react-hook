@@ -1,0 +1,27 @@
+{
+  "name": "react-hook-dark-mode",
+  "version": "1.0.0",
+  "description": "React custom hook to apply dark mode to any website",
+  "main": "dist",
+  "scripts": {
+    "prebuild": "rimraf -rf dist",
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "hooks",
+    "dark-mode"
+  ],
+  "author": "Francesc Pellicero <fpellicero@gmail.com> (https://fpellicero.github.io)",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.49",
+    "react": "^16.13.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.0.3"
+  }
+}
